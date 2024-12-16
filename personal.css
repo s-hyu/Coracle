@@ -1,0 +1,64 @@
+/* 页面基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* 内容容器 */
+.content {
+    background: #fff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* 顶部图片 */
+.header-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* 区块标题 */
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* 信息区域样式 */
+.info-section {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* 单行信息 */
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+/* 标签样式 */
+.label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* 值样式 */
+.value {
+    color: #000;
+    text-align: right;
+    max-width: 70%;
+}

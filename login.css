@@ -1,0 +1,88 @@
+/* 清除默认样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #f8f8f8; /* 设置背景颜色 */
+}
+
+/* 顶部图片样式 */
+.header-image {
+    width: 100%;
+    text-align: center;
+    background-color: #fff; /* 白色背景 */
+    padding: 20px 0;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 表单容器样式 */
+.form-container {
+    background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 40px; /* 表单与顶部图片的间距 */
+}
+
+/* 表单标题和说明 */
+form h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+form p {
+    margin: 0 0 20px;
+    color: #666;
+}
+
+/* 输入框和标签样式 */
+.input-box {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* 按钮样式 */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff9800; /* 按钮背景颜色 */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e68900; /* 按钮悬停效果 */
+}
