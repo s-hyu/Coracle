@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- 添加顶部图片 -->
+    <div class="header-image">
+        <img src="header.png" alt="Header Image">
+    </div>
+
+    <!-- 表单部分 -->
+    <div class="form-container">
+        <form id="loginForm">
+            <h2>SPERKONTO VERIFIZIERUNG</h2>
+            <p>Bitte melden Sie sich mit den entsprechenden Zugangsdaten an.</p>
+            <div class="input-box">
+                <label for="email">Referenz-ID</label>
+                <input type="text" id="email" required>
+            </div>
+            <div class="input-box">
+                <label for="password">Verifizierungscode</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- 添加脚本 -->
+    <script src="login.js"></script>
+</body>
+</html>
