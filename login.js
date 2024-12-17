@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // 验证账号密码
         if (email === VALID_EMAIL && password === VALID_PASSWORD) {
-            alert("Login successed!");
+            alert("Verification successful!");
             window.location.href = "personal.html"; // 跳转到个人信息页面
         } else {
             alert("Please verify the data. The entered verification code and ID is not matching");
